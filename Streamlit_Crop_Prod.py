@@ -101,6 +101,13 @@ def main():
         X = filtered_data[features]
         y = filtered_data[target]
 
+        # Drop rows with missing values in y
+        data_no_missing = filtered_data.dropna(subset=[target])
+
+        # Split the data into features and target variable again
+        X = data_no_missing[features]
+        y = data_no_missing[target]
+
         # Split the data into training and testing sets
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
