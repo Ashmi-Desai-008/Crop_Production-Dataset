@@ -8,3 +8,5 @@ The dataset will be useful for researchers, policymakers, and farmers who are in
 
 ## Source
 Taken the source from the Indian government's Area Production Statistics (APS) database. The APS is maintained by the Ministry of Agriculture and Farmers Welfare and provides detailed data on crop production, yield, and area under cultivation across different states and districts in India.
+
+Also available on Kaggle named under "Crop Production Statistics"
